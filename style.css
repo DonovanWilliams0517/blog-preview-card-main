@@ -1,0 +1,63 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-weight: 500;
+}
+
+.box {
+  border: 2px solid hsl(0, 0%, 7%);
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 7px hsl(0, 0%, 7%);
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.illustration {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.avatar {
+  display: flex;
+}
+
+.greg {
+  width: 3rem;
+  height: auto;
+  padding-right: 1rem;
+}
+
+.learn {
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.heading:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.body-text {
+  color: hsl(0, 0%, 42%);
+}
